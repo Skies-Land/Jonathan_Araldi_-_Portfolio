@@ -1,0 +1,79 @@
+/*=============== VARIABLES ===============*/
+@import "../utils/variables.scss";
+
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap");
+
+/*=============== BASE ===============*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body, input,
+textarea, button {
+    font-family: $body-font;
+    font-size: $normal-font-size;
+}
+
+body {
+    background-color: $body-color;
+    color: $text-color;
+    transition: background-color 0.4s;
+}
+
+input, button,
+textarea {
+    border: none;
+    outline: none;
+}
+
+h1, h2, 
+h3, h4 {
+    color: $title-color;
+    font-weight: $font-semi-bold;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/*=============== REUSABLE CSS CLASSES ===============*/
+.container {
+    max-width: 1120px;
+    margin-inline: 1.5rem;
+}
+
+.grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.section {
+    padding-block: 5rem 1rem;
+}
+
+.section__title {
+    font-size: $h1-font-size;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.main {
+    overflow: hidden;
+}

@@ -1,0 +1,23 @@
+@import "./variables.scss";
+
+/*========== Media Queries ==========*/
+    /* Landon Schropp’s technique 
+    Source : https://css-tricks.com/approaches-media-queries-sass/#aa-landon-schropps-technique */
+
+    @mixin mobile {
+        @media (max-width: #{$Mobile-width}) {
+            @content;
+        }
+    }
+
+    @mixin tablet {
+        @media (max-width: #{$Tablet-width}) {
+            @content;
+        }
+    }
+
+    @mixin desktop {
+        @media (max-width: #{$Desktop-width}) {
+            @content;
+        }
+    }

@@ -1,0 +1,151 @@
+@charset "UTF-8";
+/*=============== IMPORT BASE ===============*/
+/*=============== VARIABLES ===============*/
+/*=============== VARIABLES CSS ===============*/
+/*========== Colors ==========*/
+/*Color mode HSL(hue, saturation, lightness)*/
+/* 
+    Change favorite color
+    Default: hsl(255, 90%, 60%)
+    Orange: hsl(14, 90%, 60%) - Blue: hsl(210, 90%, 50%)
+    Pink: hsl(356, 100%, 65%) - Green: hsl(162, 90%, 40%)
+
+    For more colors visit: https://colors.dopely.top/color-pedia
+    -> Choose any color 
+    -> Click on tab (Color Conversion)
+    -> Copy the color mode (HSL)
+*/
+/*hue: 255 = Default: 255*/
+/*========== Font and typography ==========*/
+/*========== Font weight ==========*/
+/*========== z index ==========*/
+/*========== Responsive typography ==========*/
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap");
+/*========== Screen width for "media queries" ==========*/
+/*=============== GOOGLE FONTS ===============*/
+/*=============== BASE ===============*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body, input,
+textarea, button {
+  font-family: "Syne", sans-serif;
+  font-size: 0.938rem;
+}
+
+body {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(255, 8%, 45%);
+  transition: background-color 0.4s;
+}
+
+input, button,
+textarea {
+  border: none;
+  outline: none;
+}
+
+h1, h2,
+h3, h4 {
+  color: hsl(255, 24%, 16%);
+  font-weight: 600;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/*=============== REUSABLE CSS CLASSES ===============*/
+.container {
+  max-width: 1120px;
+  margin-inline: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.section {
+  padding-block: 5rem 1rem;
+}
+
+.section__title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.main {
+  overflow: hidden;
+}
+
+/*=============== IMPORT COMPONENTS ===============*/
+/*=============== IMPORT LAYOUT ===============*/
+/*=============== IMPORT PAGES ===============*/
+/*=============== IMPORT THEME ===============*/
+/*========== ☀️ LIGHT MOD ☀️ ==========*/
+/*========== 🌙 DARK MOD 🌙 ==========*/
+/*=============== IMPORT UTILS ===============*/
+/*=============== VARIABLES CSS ===============*/
+/*========== Colors ==========*/
+/*Color mode HSL(hue, saturation, lightness)*/
+/* 
+    Change favorite color
+    Default: hsl(255, 90%, 60%)
+    Orange: hsl(14, 90%, 60%) - Blue: hsl(210, 90%, 50%)
+    Pink: hsl(356, 100%, 65%) - Green: hsl(162, 90%, 40%)
+
+    For more colors visit: https://colors.dopely.top/color-pedia
+    -> Choose any color 
+    -> Click on tab (Color Conversion)
+    -> Copy the color mode (HSL)
+*/
+/*hue: 255 = Default: 255*/
+/*========== Font and typography ==========*/
+/*========== Font weight ==========*/
+/*========== z index ==========*/
+/*========== Responsive typography ==========*/
+/*========== Screen width for "media queries" ==========*/
+/*========== Media Queries ==========*/
+/* Landon Schropp’s technique 
+Source : https://css-tricks.com/approaches-media-queries-sass/#aa-landon-schropps-technique */
+/*=============== VARIABLES CSS ===============*/
+/*========== Colors ==========*/
+/*Color mode HSL(hue, saturation, lightness)*/
+/* 
+    Change favorite color
+    Default: hsl(255, 90%, 60%)
+    Orange: hsl(14, 90%, 60%) - Blue: hsl(210, 90%, 50%)
+    Pink: hsl(356, 100%, 65%) - Green: hsl(162, 90%, 40%)
+
+    For more colors visit: https://colors.dopely.top/color-pedia
+    -> Choose any color 
+    -> Click on tab (Color Conversion)
+    -> Copy the color mode (HSL)
+*/
+/*hue: 255 = Default: 255*/
+/*========== Font and typography ==========*/
+/*========== Font weight ==========*/
+/*========== z index ==========*/
+/*========== Responsive typography ==========*/
+/*========== Screen width for "media queries" ==========*/
+
+/*# sourceMappingURL=style.css.map */
