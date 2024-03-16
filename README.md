@@ -1,4 +1,4 @@
-# 🍛 Projet 12 - [OpenClassrooms](https://openclassrooms.com/fr/) "Intégrateur Web"
+# 🎨 Projet 12 - [OpenClassrooms](https://openclassrooms.com/fr/) "Intégrateur Web"
 Création et publication en ligne de mon portfolio de développeur.
 
 ##
