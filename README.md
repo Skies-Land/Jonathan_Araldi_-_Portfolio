@@ -12,5 +12,6 @@ Création et publication en ligne de mon portfolio de développeur.
 - [Emailjs](https://www.emailjs.com/) pour rendre le formulaire de contact fonctionel
 
 ### Decription : 
-- Site web de portfolio personnel réactif développé : HTML, CSS, JavaScript & SASS
+- Site web de portfolio personnel responsive développé : HTML, CSS, JavaScript & SASS
 - Contient plusieurs pages (À propos, Projet & Contact)
+- Développé d'abord avec la méthodologie Mobile First, puis pour les ordinateurs de bureau.

@@ -1,0 +1,80 @@
+@import "../utils/variables.scss";
+
+/*=============== HEADER & NAV ===============*/
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: $first-color;
+    z-index: $z-fixed;
+    transition: background-color 0.4s, box-shadow 0.4s;
+    &-pages {
+        /* Change background header */
+        background-color: $body-color;
+        
+    }
+    .nav {
+        position: relative;
+        height: $header-height;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__logo {
+            color: $white-color;
+            font-weight: $font-semi-bold;
+            transition: color 0.4s;
+            &.other-page {
+                color: $title-color; // couleur pour les autres pages
+            }
+        }
+        &__toggle,
+        &__close {
+            display: inline-flex;
+            font-size: 1.25rem;
+            cursor: pointer;
+        }
+        &__toggle {
+            color: $white-color;
+            transition: color 0.4s;
+            &.other-page {
+                color: $title-color; // couleur pour les autres pages
+            }
+        }
+        &__close {
+            color: $title-color;
+            position: absolute;
+            top: 1.15rem;
+            right: 1.5rem;
+        }
+        &__menu {
+            @media screen and (max-width: 1150px) {
+                position: fixed;
+                top: -100%;
+                background-color: $body-color;
+                width: 100%;
+                box-shadow: 0 12px 24px $shadow-color;
+                padding-block: 5rem 4rem;
+                transition: top 0.4s;
+            }
+            &.show-menu {
+                /* Show menu */
+                top: 0;
+            }
+            .nav__list {
+                display: flex;
+                flex-direction: column;
+                row-gap: 2.5rem;
+                text-align: center;
+                .nav__link {
+                    color: $title-color;
+                    font-weight: $font-semi-bold;
+                    transition: color 0.4s;
+                    &:hover {
+                        color: $first-color;
+                    }
+                }
+            }
+        }
+    }
+}

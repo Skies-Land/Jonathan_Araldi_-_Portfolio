@@ -15,7 +15,6 @@
     -> Click on tab (Color Conversion)
     -> Copy the color mode (HSL)
 */
-/*hue: 255 = Default: 255*/
 /*========== Font and typography ==========*/
 /*========== Font weight ==========*/
 /*========== z index ==========*/
@@ -41,8 +40,8 @@ textarea, button {
 }
 
 body {
-  background-color: hsl(0, 0%, 100%);
-  color: hsl(255, 8%, 45%);
+  background-color: white;
+  color: #5F7485;
   transition: background-color 0.4s;
 }
 
@@ -54,7 +53,7 @@ textarea {
 
 h1, h2,
 h3, h4 {
-  color: hsl(255, 24%, 16%);
+  color: black;
   font-weight: 600;
 }
 
@@ -98,7 +97,138 @@ img {
 }
 
 /*=============== IMPORT COMPONENTS ===============*/
+/*=============== VARIABLES CSS ===============*/
+/*========== Colors ==========*/
+/*Color mode HSL(hue, saturation, lightness)*/
+/* 
+    Change favorite color
+    Default: hsl(255, 90%, 60%)
+    Orange: hsl(14, 90%, 60%) - Blue: hsl(210, 90%, 50%)
+    Pink: hsl(356, 100%, 65%) - Green: hsl(162, 90%, 40%)
+
+    For more colors visit: https://colors.dopely.top/color-pedia
+    -> Choose any color 
+    -> Click on tab (Color Conversion)
+    -> Copy the color mode (HSL)
+*/
+/*========== Font and typography ==========*/
+/*========== Font weight ==========*/
+/*========== z index ==========*/
+/*========== Responsive typography ==========*/
+/*========== Screen width for "media queries" ==========*/
+/*=============== BUTTON ===============*/
+.button {
+  display: inline-flex;
+  justify-content: center;
+  background-color: #65B5F7;
+  color: white;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.4s, box-shadow 0.4s;
+}
+.button:hover {
+  background-color: #84C4F9;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+}
+
 /*=============== IMPORT LAYOUT ===============*/
+/*=============== VARIABLES CSS ===============*/
+/*========== Colors ==========*/
+/*Color mode HSL(hue, saturation, lightness)*/
+/* 
+    Change favorite color
+    Default: hsl(255, 90%, 60%)
+    Orange: hsl(14, 90%, 60%) - Blue: hsl(210, 90%, 50%)
+    Pink: hsl(356, 100%, 65%) - Green: hsl(162, 90%, 40%)
+
+    For more colors visit: https://colors.dopely.top/color-pedia
+    -> Choose any color 
+    -> Click on tab (Color Conversion)
+    -> Copy the color mode (HSL)
+*/
+/*========== Font and typography ==========*/
+/*========== Font weight ==========*/
+/*========== z index ==========*/
+/*========== Responsive typography ==========*/
+/*========== Screen width for "media queries" ==========*/
+/*=============== HEADER & NAV ===============*/
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #65B5F7;
+  z-index: 100;
+  transition: background-color 0.4s, box-shadow 0.4s;
+}
+.header-pages {
+  /* Change background header */
+  background-color: white;
+}
+.header .nav {
+  position: relative;
+  height: 3.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .nav__logo {
+  color: white;
+  font-weight: 600;
+  transition: color 0.4s;
+}
+.header .nav__logo.other-page {
+  color: black;
+}
+.header .nav__toggle, .header .nav__close {
+  display: inline-flex;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+.header .nav__toggle {
+  color: white;
+  transition: color 0.4s;
+}
+.header .nav__toggle.other-page {
+  color: black;
+}
+.header .nav__close {
+  color: black;
+  position: absolute;
+  top: 1.15rem;
+  right: 1.5rem;
+}
+@media screen and (max-width: 1150px) {
+  .header .nav__menu {
+    position: fixed;
+    top: -100%;
+    background-color: white;
+    width: 100%;
+    box-shadow: 0 12px 24px hsla(210, 90%, 30%, 0.1);
+    padding-block: 5rem 4rem;
+    transition: top 0.4s;
+  }
+}
+.header .nav__menu.show-menu {
+  /* Show menu */
+  top: 0;
+}
+.header .nav__menu .nav__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.5rem;
+  text-align: center;
+}
+.header .nav__menu .nav__list .nav__link {
+  color: black;
+  font-weight: 600;
+  transition: color 0.4s;
+}
+.header .nav__menu .nav__list .nav__link:hover {
+  color: #65B5F7;
+}
+
 /*=============== IMPORT PAGES ===============*/
 /*=============== IMPORT THEME ===============*/
 /*========== ☀️ LIGHT MOD ☀️ ==========*/
@@ -118,7 +248,6 @@ img {
     -> Click on tab (Color Conversion)
     -> Copy the color mode (HSL)
 */
-/*hue: 255 = Default: 255*/
 /*========== Font and typography ==========*/
 /*========== Font weight ==========*/
 /*========== z index ==========*/
@@ -141,7 +270,6 @@ Source : https://css-tricks.com/approaches-media-queries-sass/#aa-landon-schropp
     -> Click on tab (Color Conversion)
     -> Copy the color mode (HSL)
 */
-/*hue: 255 = Default: 255*/
 /*========== Font and typography ==========*/
 /*========== Font weight ==========*/
 /*========== z index ==========*/

@@ -1,0 +1,17 @@
+@import "../utils/variables.scss";
+
+/*=============== BUTTON ===============*/
+.button {
+    display: inline-flex;
+    justify-content: center;
+    background-color: $first-color;
+    color: $white-color;
+    font-weight: $font-semi-bold;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.4s, box-shadow 0.4s;
+    &:hover {
+        background-color: $first-color-alt;
+        box-shadow: $Shadow-button;
+    }
+}
