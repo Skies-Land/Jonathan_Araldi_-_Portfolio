@@ -2,7 +2,7 @@
 Création et publication en ligne de mon portfolio de développeur.
 
 ##
-### Ressources :
+### 🔗 Resources
 - [Node.js](https://nodejs.org/en) pour exécuter des commandes `npm`
 - [SASS](https://sass-lang.com/) pour travailler style CSS
 - [Color Pedia](https://colors.dopely.top/color-pedia) palette de couleur
@@ -12,7 +12,7 @@ Création et publication en ligne de mon portfolio de développeur.
 - [WorldVectorLogo](https://worldvectorlogo.com/) comme librairie de logo
 - [Emailjs](https://www.emailjs.com/) pour rendre le formulaire de contact fonctionel
 
-### Decription : 
+### Decription 
 - Site web de portfolio personnel responsive développé : HTML, CSS, JavaScript & SASS
 - Contient plusieurs pages (À propos, Projet & Contact)
 - Développé d'abord avec la méthodologie Mobile First, puis pour les ordinateurs de bureau.
